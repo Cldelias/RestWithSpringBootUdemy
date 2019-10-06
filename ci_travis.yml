@@ -2,7 +2,6 @@ language: bash
 services: docker
 before_install:
   - sudo apt-get update
-  - cd 17\ RestWithSpringBootUdemy\ Docker/
   - echo "We are in the Docker folder!"
 script:
   - echo "OK Here we GO!"
